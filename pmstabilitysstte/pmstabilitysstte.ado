@@ -8,7 +8,7 @@ version 16
 	 
 */
 
-syntax varlist , [PREValence(real)   ///
+syntax varlist [ , PREValence(real)   ///
 			ALPHA(real 0.5) ///
 			LP(varname max=1 numeric) ///
 			SUBgroup(varname max=1) ///
