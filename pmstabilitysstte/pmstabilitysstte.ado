@@ -8,12 +8,11 @@ version 16
 	 
 */
 
-syntax varlist [ , PREValence(real)   ///
+syntax varlist , Time(varname) TIMEPoint(real) ///
+			[PREValence(real 0)   ///
 			ALPHA(real 0.5) ///
 			LP(varname max=1 numeric) ///
 			SUBgroup(varname max=1) ///
-			Time(varname) ///
-			TIMEPoint(real 1) ///
 			NODRAW ///
 			NOCOMPare ///
 			COLor(string) ///
