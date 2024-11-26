@@ -1,14 +1,14 @@
 
 {smcl}
 
-{* *! version 1.0.0 23Jul2024}
-{cmd:help pmstabilityss}
+{* *! version 1.0.0 26Nov2024}
+{cmd:help pmstabilitysstte}
 {hline}
 
 {title:Title}
 
 {phang}
-{bf:pmstabilityss} {hline 2} Calculates the minimum sample size required for developing a prediction model targeting precise individual risk estimates
+{bf:pmstabilitysstte} {hline 2} Calculates the minimum sample size required for developing a prediction model targeting precise individual risk estimates
 
 {marker syntax}{...}
 {title:Syntax}
@@ -18,6 +18,8 @@
 	[{opt cstat:istic(real 0)}
 	{opt beta:s(numlist)}
 	{opt n(numlist)}
+	{opt t:ime(varname)}
+	{opt timep:oint(real 1)}
 	{opt st:andardised}  
 	{opt lp(varname)} 
 	{opt sub:group(varname)} 
