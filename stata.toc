@@ -1,3 +1,3 @@
 v 3
 d Repository of code for manuscript "A decomposition of Fisher’s information to inform sample size for developing fair and precise clinical prediction models: part 2 - time-to-event outcomes"
-p pmstabilityss Calculates minimum sample size for developing a model targeting precise individual risk estimates
+p pmstabilitysstte Calculates minimum sample size for developing a model targeting precise individual risk estimates
